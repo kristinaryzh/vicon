@@ -1,0 +1,17 @@
+group 'projectvicon'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'junit', name: 'junit', version: '4.12'
+    compile 'org.testng:testng:6.14.3'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-firefox-driver', version: '2.25.0'
+
+}
