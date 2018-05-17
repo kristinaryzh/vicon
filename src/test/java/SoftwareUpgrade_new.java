@@ -1,4 +1,4 @@
-import org.testng.annotations.BeforeMethod;
+/*import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
@@ -29,6 +29,8 @@ public class SoftwareUpgrade_new {
         wd.findElement(By.id("txtPassword")).sendKeys("1234");
         wd.findElement(By.id("submitBtn")).click();
         wd.findElement(By.xpath("//div[@id='vms-export-container']//button[.='Close']")).click();
+
+
         wd.findElement(By.linkText("Configuration")).click();
         wd.findElement(By.cssSelector("span.vicon-font.v-software-upgrade")).click();
         wd.findElement(By.xpath("//div[@class='vms-right-panel-content']//button[.='click here']")).click();
@@ -49,3 +51,4 @@ public class SoftwareUpgrade_new {
         }
     }
 }
+*/
